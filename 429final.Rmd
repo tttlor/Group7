@@ -243,7 +243,8 @@ suggestBooks<-function(bookDF, userDF, user_id, no_books){
   #print suggestions
   write.table(suggestions[2], row.names = FALSE, col.names = FALSE)
 }
-#try with an example
+
+#try with an example, suggest 10 books for user whose id is 1
 suggestBooks(bookDF, userDF, 1, 10)
 ```
 
